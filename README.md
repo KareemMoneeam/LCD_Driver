@@ -1,60 +1,40 @@
-# LCD_Driver
-Generic LCD Driver - Ready to use for any microcontroller  
+<!-- LCD Driver -->
 
-Used GPIO -> AVR Atmega32/Atmega16
+<h1 align="center">LCD Driver</h1>
 
-## Driver description
-Our Driver has eight functions:
+<p align="center">
+  A versatile LCD driver compatible with various microcontrollers, supporting both 4-bit and 8-bit data modes.
+</p>
 
-- LCD_init();
+---
 
-  Description :
-  
-1 - Initialize the LCD:
-  
-1. Setup the LCD pins directions by use the GPIO driver.
-2. Setup the LCD Data Mode 4-bits or 8-bits.
+**Key Features**
 
+- **Universal Compatibility:** Works with a wide range of microcontrollers, making it a versatile choice for LCD interfacing.
+- **Easy Integration:** Quickly set up and control your LCD.
+- **Flexible Data Modes:** Choose between 4-bit and 8-bit data modes.
+- **Cursor Control:** Move the cursor to specific locations on the screen.
+- **String Display:** Display strings and integers with ease.
+- **Clear Screen:** Clear the LCD screen with a single command.
+- **Intuitive API:** Simple functions for LCD interaction.
 
-2- LCD_sendCommand()
-  
-Description :
-- Send the required command to the screen.
+**Usage**
 
+This LCD driver simplifies interfacing with your microcontroller and your LCD screen, regardless of the microcontroller you're using. Whether you need to display text, clear the screen, or move the cursor to a specific position, this driver makes it straightforward.
 
-3- LCD_displayCharacter()
+**Getting Started**
 
-Description :
-- Display the required character on the screen.
- 
+To use this LCD driver, clone this repository, and explore the example code and extensive documentation provided in the "docs" folder. Now, you have the power to control your LCD with ease, no matter your choice of microcontroller!
 
-4- LCD_displayString()
+**Contributions**
 
-Description :
+Contributions and enhancements to this open-source LCD driver are encouraged. Feel free to submit pull requests for suggestions, bug fixes, or new features to support the community.
 
-- Display the required string on the screen.
-  
+<div align="center">
+  <p>Connect with me on <a href="https://www.linkedin.com/in/kareemmoneeam/">LinkedIn</a></p>
+  <p>Email: <a href="mailto:kareemmoneeam@outlook.com">kareemmoneeam@outlook.com</a></p>
+</div>
 
-5- LCD_moveCursor()
+---
 
-Description :
-
- - Move the cursor to a specified row and column index on the screen.
-
-
-6- LCD_displayStringRowColumn()
-
-Description :
-
-- Display the required string in a specified row and column index on the screen.
-
-7- LCD_intgerToString()
-
-Description :
-Display the required decimal value on the screen.
-
-8- LCD_clearScreen()
-
-Description :
- 
-- Send the clear screen command.
+</div>
