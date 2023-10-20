@@ -24,7 +24,7 @@ This LCD driver simplifies interfacing with your microcontroller and your LCD sc
 
 **Getting Started**
 
-To use this LCD driver, clone this repository, and explore the example code and extensive documentation provided in the "docs" folder. Now, you have the power to control your LCD with ease, no matter your choice of microcontroller!
+To use this LCD driver, clone this repository, and explore the example code. Now, you have the power to control your LCD with ease, no matter your choice of microcontroller!
 
 **Contributions**
 
